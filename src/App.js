@@ -19,7 +19,7 @@ function App() {
       <Tabs
       tabs = { tabs }
       currentTab = { currentTab }
-      setCurrentTab= {setCurrentTab }/>
+      setCurrentTab= { setCurrentTab }/>
       <Return tabs={ tabs } currentTab= {currentTab }/>
     </div>
   );

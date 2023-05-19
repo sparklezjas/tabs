@@ -19,7 +19,7 @@ return (
     <div className='boxes'>
         {
         tabs.map((item, index) => (
-            <div className={'tab ${ showTab(index) }'} onClick={(e) => setSelectedTab(index) }>
+            <div className={`tab ${ showTab(index) }`} onClick={(e) => setSelectedTab(index) }>
                 { item.label }
                 </div>
 ))
